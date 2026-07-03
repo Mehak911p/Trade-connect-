@@ -38,3 +38,23 @@ button{
     background:#0d6efd;
     color:white;
 }
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    background:white;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+.navbar ul li a{
+    text-decoration:none;
+    color:black;
+    font-weight:500;
+}
